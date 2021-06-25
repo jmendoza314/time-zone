@@ -1,3 +1,18 @@
+
+
+function time() {
+    var timeZone = "http://worldtimeapi.org/api/timezone"
+    
+    fetch(timeZone)
+    .then (function (response) {
+        return response.json();
+    })
+    .then(function (data){
+        console.log(data)
+    })
+}
+time()
+
 const settings = {
 	"async": true,
 	"crossDomain": true,
@@ -20,3 +35,4 @@ $.ajax(settings).done(function (response) {
 	console.log(response);
 });
  
+
