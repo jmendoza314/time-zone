@@ -1,22 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Word Translator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
-<link rel="bulma" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-<link rel="stylesheet" href="style.css">
 
 <body>
-    <header class="header">Welcome To The Word Translator!</header>
-    
-    <div>
+    <!-- header using hero -->
+    <section class="hero">
+        <div class="hero-body">
+            <h1 class="title">
+                Word Translator & Time Zone
+            </h1>
+            <p class="subtitle">
+                <strong>Translate any word or phrase to your language of choice</strong>
+            </p>
+        </div>
+    </section>
+    <!-- Translate card -->
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="card">
+                    <div class="card-content">
+                        <select>
+                            <option>Select Language</option>
+                            <option>Chinese</option>
+                            <option>French</option>
+                            <option>German</option>
+                            <option>Japanese</option>
+                            <option>Korean</option>
+                            <option>Spanish</option>
+                        </select>
+                        <input class="input" type="text" placeholder="Enter Word">
+                    </div>
+                    <div class="buttons is-right">
+                        <button class="button is-info is-outlined">Translate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="card">
+                    <div class="card-content">
+                        <select>
+                            <option>Select Country</option>
+                            <option>China</option>
+                            <option>France</option>
+                            <option>Germany</option>
+                            <option>Japan</option>
+                            <option>Korea</option>
+                            <option>Spain</option>
+                        </select>
+                        <input class="input" type="text" placeholder="Time Zone">
+                    </div>
+                    <div class="buttons is-right">
+                        <button class="button is-info is-outlined">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
