@@ -1,4 +1,4 @@
-
+// ivanM added
 
 function time() {
     var timeZone = "http://worldtimeapi.org/api/timezone"
