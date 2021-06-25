@@ -4,42 +4,74 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Word Translator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="section">
-        <div class="container">
+    <!-- header using hero -->
+    <section class="hero">
+        <div class="hero-body">
             <h1 class="title">
-                Word-Translator
+                Word Translator
             </h1>
             <p class="subtitle">
-                <strong>Translate</strong> any word or phrase to your language of choice.
+                <strong>Translate any word or phrase to your language of choice</strong>
             </p>
         </div>
     </section>
-    <section class="box">
-        <div class="container">
-            <select>
-                <option>Select Language</option>
-                <option>Chinese</option>
-                <option>French</option>
-                <option>German</option>
-                <option>Japanese</option>
-                <option>Korean</option>
-                <option>Spanish</option>
-            </select>
-            <input class="input" type="text" placeholder="Enter Word">
+    <!-- Translate card -->
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="card">
+                    <div class="card-content">
+                        <select>
+                            <option>Select Language</option>
+                            <option>Chinese</option>
+                            <option>French</option>
+                            <option>German</option>
+                            <option>Japanese</option>
+                            <option>Korean</option>
+                            <option>Spanish</option>
+                        </select>
+                        <input class="input" type="text" placeholder="Enter Word">
+                    </div>
+                    <div class="buttons is-right">
+                        <button class="button is-info is-outlined">Translate</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-    <section class="container">
-        <div class="buttons">
-            <button class="button is-info is-outlined">Translate</button>
-        </div>
-    </section>
+    </div>
 
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="card">
+                    <div class="card-content">
+                        <select>
+                            <option>Select Country</option>
+                            <option>China</option>
+                            <option>France</option>
+                            <option>Germany</option>
+                            <option>Japan</option>
+                            <option>Korea</option>
+                            <option>Spain</option>
+                        </select>
+                        <input class="input" type="text" placeholder="Language">
+                    </div>
+                    <div class="buttons is-right">
+                        <button class="button is-info is-outlined">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
