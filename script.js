@@ -10,8 +10,8 @@ const settings = {
 		"x-rapidapi-host": "google-translate1.p.rapidapi.com"
 	},
 	"data": {
-		"q": "water",
-		"target": "ru",
+		"q": "city",
+		"target": "ar",
 		"source": "en"
 	}
 };
