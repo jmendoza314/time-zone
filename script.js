@@ -35,4 +35,15 @@ $.ajax(settings).done(function (response) {
 	console.log(response);
 });
 
+const languages = {
+	'zh-cn': 'Chinese',
+	'fr': 'French',
+	'de': 'German',
+	'jw': 'Japanese',
+	'ko': 'Korean',
+	'es': 'Spanish'
+};
+
+
+
 
