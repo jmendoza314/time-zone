@@ -33,11 +33,20 @@ body {
 
 .card {
     margin: 0 25px;
+    padding-bottom: 20px;
     box-shadow: 0 5px 8px slategray;
 }
 
 .button {
     margin-right: 25px;
+    border-color: #209cee;
+    color: #209cee;
+}
+
+.button:hover {
+    background-color: #209cee;
+    border-color: #209cee;
+    color: #fff;
 }
 
 select {
@@ -48,4 +57,7 @@ select {
     .subtitle {
         font-size: 16px;
     }
-}
+    .time, #time_zone {
+        font-size: small;
+    }
+};
