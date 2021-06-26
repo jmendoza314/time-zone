@@ -15,13 +15,47 @@
     <section class="hero">
         <div class="hero-body">
             <h1 class="title">
-                Word Translator & Time Zone
+                World Time Zone
             </h1>
             <p class="subtitle">
-                <strong>Translate any word or phrase to your language of choice</strong>
+                <strong>View local time for major cities around the world</strong>
             </p>
+            <div class="hero-foot">
+                <div class="time">Local Time: 20:30</div>
+            </div>
+
         </div>
     </section>
+
+    <!-- time zone card -->
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="card">
+                    <div class="card-content">
+                        <select>
+                            <option>Select City</option>
+                            <option value="asia/tokio">Tokio</option>
+                            <option value="asia/beijin">Beijin</option>
+                            <option value="asia/mumbai">Mumbai</option>
+                            <option value="africa/cairo">Cairo</option>
+                            <option value="europe/paris">Paris</option>
+                            <option value="america/sao_paulo">Sao Paulo</option>
+                            <option value="america/new_york">New York</option>
+                            <option value="america/los_angeles">Los Angeles</option>
+                        </select>
+                        <form action="/nowhere" id="time_form">
+                            <input class="input" id="time_zone" type="text" placeholder="Time Zone">
+                        </form>
+                    </div>
+                    <div class="buttons is-right">
+                        <button class="button is-info is-outlined">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Translate card -->
     <div class="container">
         <div class="columns">
@@ -37,7 +71,9 @@
                             <option>Korean</option>
                             <option>Spanish</option>
                         </select>
-                        <input class="input" type="text" placeholder="Enter Word">
+
+                        <input class="input" name="trans" type="text" placeholder="Enter Word">
+
                     </div>
                     <div class="buttons is-right">
                         <button class="button is-info is-outlined">Translate</button>
@@ -47,30 +83,9 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="columns">
-            <div class="column is-two-thirds">
-                <div class="card">
-                    <div class="card-content">
-                        <select>
-                            <option>Select Country</option>
-                            <option>China</option>
-                            <option>France</option>
-                            <option>Germany</option>
-                            <option>Japan</option>
-                            <option>Korea</option>
-                            <option>Spain</option>
-                        </select>
-                        <input class="input" type="text" placeholder="Time Zone">
-                    </div>
-                    <div class="buttons is-right">
-                        <button class="button is-info is-outlined">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 
