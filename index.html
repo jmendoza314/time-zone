@@ -15,64 +15,47 @@
     <section class="hero">
         <div class="hero-body">
             <h1 class="title">
-                Word Translator & Time Zone
+                World Time Zone
             </h1>
             <p class="subtitle">
-                <strong>Translate any word or phrase to your language of choice</strong>
+                <strong>View local time for major cities around the world</strong>
             </p>
+            <div class="hero-foot">
+                <div class="time">Local Time: 20:30</div>
+            </div>
+
         </div>
     </section>
-    <!-- Translate card 
+
+    <!-- time zone card -->
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
                 <div class="card">
                     <div class="card-content">
                         <select>
-                            <option>Select Language</option>
-                            <option id="zh-CN">Chinese</option>
-                            <option id="fr">French</option>
-                            <option id="de">German</option>
-                            <option id="ja">Japanese</option>
-                            <option id="ko">Korean</option>
-                            <option id="es">Spanish</option>
+                            <option>Select City</option>
+                            <option value="asia/tokio">Tokyo</option>
+                            <option value="asia/beijing">Beijing</option>
+                            <option value="asia/mumbai">Mumbai</option>
+                            <option value="africa/cairo">Cairo</option>
+                            <option value="europe/paris">Paris</option>
+                            <option value="america/sao_paulo">Sao Paulo</option>
+                            <option value="america/new_york">New York</option>
+                            <option value="america/los_angeles">Los Angeles</option>
                         </select>
-                        <input id="input" type="text" placeholder="Enter Word">
+                        <form action="/nowhere" id="time_form">
+                            <input class="input" id="time_zone" type="text" placeholder="Time Zone">
+                        </form>
                     </div>
                     <div class="buttons is-right">
-                        <button class="button is-info is-outlined" id="translateBtn">Translate</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
--->
-
-    <div class="container">
-        <div class="columns">
-            <div class="column is-two-thirds">
-                <div class="card">
-                    <div class="card-content">
-                        <select>
-                            <option>Select Country</option>
-                            <option value="/america/panama">Panama</option>
-                            <option>France</option>
-                            <option>Germany</option>
-                            <option>Japan</option>
-                            <option>Korea</option>
-                            <option>Spain</option>
-                        </select>
-                        <input class="input" type="text" placeholder="Time Zone">
-                    </div>
-                    <div class="buttons is-right">
-
                         <button class="button" id="submitBtn">Submit</button>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
