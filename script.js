@@ -13,6 +13,17 @@ function time() {
 }
 time()
 
+// Time Zone-list of cities:
+// Tokio
+// Beijin
+// Mumbai
+// Cairo 
+// Paris 
+// Sao Paolo 
+// New York
+// Los Angeles
+
+
 const settings = {
 	"async": true,
 	"crossDomain": true,
@@ -35,14 +46,15 @@ $.ajax(settings).done(function (response) {
 	console.log(response);
 });
 
-const languages = {
-	'zh-cn': 'Chinese',
-	'fr': 'French',
-	'de': 'German',
-	'jw': 'Japanese',
-	'ko': 'Korean',
-	'es': 'Spanish'
-};
+//word translator- languages:
+// const languages = {
+// 	'zh-cn': 'Chinese',
+// 	'fr': 'French',
+// 	'de': 'German',
+// 	'jw': 'Japanese',
+// 	'ko': 'Korean',
+// 	'es': 'Spanish'
+// };
 
 
 
