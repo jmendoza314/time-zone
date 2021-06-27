@@ -1,4 +1,5 @@
-# Word Translator
+<img width="996" alt="time_zone" src="https://user-images.githubusercontent.com/82916926/123558577-dc17d300-d74b-11eb-8cc6-0a50be642f7a.png">
+# World Time Zone
 
 ## User Story
 ````
