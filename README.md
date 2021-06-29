@@ -1,18 +1,17 @@
-# Word Translator
+# World Time Zone
 
 ## User Story
-````
+
 AS A user
-I WANT to have my words translated to a foreign language of my choice
-SO THAT I can communicate with others in their native tongue
-````
+I WANT to find the time of a city when I select it from a drop down 
+SO THAT I can see that city's time
+
 
 ## Acceptance Criteria 
-````
-WHEN I input a word or sentence into the text area
-THEN click the “translate” button my word or sentence is translated into a foreign language of my choice
-WHEN I choose a country from a drop down menu
-THEN the webpage displays common dishes that correspond with the country selected from the drop down menu
-````
+
+WHEN I select a country from the drop down menu
+THEN that country's time will be displayed
+WHEN the webpage loads
+THEN it displays a random event that took place on that date in history
 
 <img width="700" alt="Screen Shot 2021-06-28 at 11 10 37 PM" src="https://user-images.githubusercontent.com/80602912/123747098-52f5be80-d867-11eb-977b-b3da9c1822bd.png">
